@@ -1,9 +1,5 @@
 
-.tic-tac-toe-cont::after{
-    clear: both;
-    content: "";
-    display: table;
-    display: flex;
+.tic-tac-toe-cont{
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
