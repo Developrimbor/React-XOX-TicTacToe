@@ -57,7 +57,7 @@ function TicTacToe() {
             setStatus(`DRAW!! Restart the Game`)
 
         }else if (getWinner(square)) {
-            setStatus(`Winner is ${getWinner(square)}. Restart the game`)
+            setStatus(`Winner is ${getWinner(square)}! Restart the game`)
         
         }else {
             setStatus(`Next player is ${XTurn ? 'X' : 'O'}`)
@@ -84,7 +84,7 @@ function TicTacToe() {
             <Square value={square[8]} onClick={() => handleClick(8)} />
         </div>
         <h1>{status}</h1>
-        <button onClick={handleRestart}>Restart</button>
+        <button className="restButton" onClick={handleRestart}>Restart</button>
     </div>
   )
 }
