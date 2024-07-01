@@ -1,7 +1,8 @@
 import React from 'react'
+import './style.css';
 
 function Square({value}) {
-    return <button>{value}</button>
+    return <button className="square">{value}</button>
 }
 
 function TicTacToe() {
