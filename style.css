@@ -1,19 +1,33 @@
 
 .tic-tac-toe-cont{
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
 }
 
+.row{
+    display: flex;
+}
+
 .square{
-    border: 1px solid red;
-    float: 1px;
+    color: aliceblue;
     font-size: 50px;
-    height: 100px;
-    padding: 0px;
-    text-align: center;
-    width: 100px;
-    margin-right: -1px;
-    margin-top: -1px;
+    height: 150px;
+    width: 150px;
+    background: #1c3d4d;
+    border: 4px solid #688d9f;
+    border-radius: 12px;
     cursor: pointer;
 }
+
+.restButton{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #1c3d4d;
+    font-size: 18px;
+    color: aliceblue;
+}
+
